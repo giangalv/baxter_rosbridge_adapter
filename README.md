@@ -199,7 +199,9 @@ RIGHT_TABLE_LOW  = [ 0.55, -0.95, -0.10,  1.70,  0.00,  1.05,  0.00]
 - Publishes complete joint states to ROS2 `/joint_states`
 
 `baxter_cli`
+
 Connects to Baxter rosbridge (WebSocket)
+
 Publishes commands to ROS1 topics:
 * `/robot/set_super_enable`
 * `/robot/end_effector/{left|right}_gripper/command`
