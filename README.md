@@ -212,6 +212,7 @@ Subscribes to state topics:
 * `/robot/state`
 * `/robot/joint_states`
 * `/robot/end_effector/{left|right}_gripper/state`
+  
 Provides interactive terminal interface
 
 ### Launch files
