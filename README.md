@@ -193,12 +193,12 @@ RIGHT_TABLE_LOW  = [ 0.55, -0.95, -0.10,  1.70,  0.00,  1.05,  0.00]
 
 ## Architecture
 ### Nodes
-`joint_state_bridge`
+-> `joint_state_bridge`
 - Subscribes to ROS1 `/robot/joint_states` via rosbridge
 - Merges fragmented joint state messages
 - Publishes complete joint states to ROS2 `/joint_states`
 
-`baxter_cli`
+-> `baxter_cli`
 
 Connects to Baxter rosbridge (WebSocket)
 
@@ -212,7 +212,7 @@ Subscribes to state topics:
 * `/robot/state`
 * `/robot/joint_states`
 * `/robot/end_effector/{left|right}_gripper/state`
-- Provides interactive terminal interface
+Provides interactive terminal interface
 
 ### Launch files
 `baxter_visualize.launch.py`
