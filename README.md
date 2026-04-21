@@ -103,7 +103,7 @@ ros2 run baxter_rosbridge_adapter baxter_cli \
 ## Usage
 ### Launch Rviz2 visualization
 ```bash
-ros2 launch baxter_rosbridge_adapter baxter_visualize.launch.py
+ros2 launch baxter_rosbridge_adapter baxter_visualization.launch.py
 ```
 
 This starts:
